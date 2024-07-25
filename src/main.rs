@@ -11,14 +11,14 @@ fn addition_table(n: u64) {
     for i in 0..n {
         print!("{:2} ", i);
         for j in 0..n {
-            print!("{:4}", (i + j) % n);
+            print!("{:4}",
         }
         println!();
     }
 }
 
 fn main() {
-    let n = 15; // Example value
+    let n = 5; // Example value
     addition_table(n);
 }
 
